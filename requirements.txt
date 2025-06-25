@@ -1,0 +1,4 @@
+pexpect
+requests
+python-telegram-bot
+python-dotenv
