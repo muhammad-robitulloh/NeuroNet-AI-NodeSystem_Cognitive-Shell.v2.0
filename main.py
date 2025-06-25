@@ -10,6 +10,11 @@ setup(
         'python-telegram-bot',
         'python-dotenv',
     ],
+    entry_points={
+        'console_scripts': [
+            'cognitiveshell=cognitiveshell.cognitive_shell:main',
+        ],
+    },
     author='Muhammad Robitulloh',
     author_email='muhammadrobitulloh19@gmail.com',
     description='Semi-Agentic Terminal AI assistant with shell error detection and debugging via Telegram',
