@@ -21,10 +21,10 @@ load_dotenv()
 # export TELEGRAM_CHAT_ID="YOUR_TELEGRAM_CHAT_ID_DI_SINI" # ID chat Telegram Anda (dapatkan dari @userinfobot)
 # export TELEGRAM_BOT_TOKEN="YOUR_TELEGRAM_BOT_TOKEN_DI_SINI" # Token dari BotFather
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "sk-or-v1 OPENROUTER_KEY")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://openrouter.ai/api/v1/chat/completions")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6504150585") # ID chat yang diizinkan untuk interaksi
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7873624234:AAHJ_Wm6EFgV4W7JdeehfhHjYbVdHiPOk_M")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "CHAT_ID_TELEGRAM") # ID chat yang diizinkan untuk interaksi
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "BOT_TOKEN")
 
 # Konfigurasi model LLM untuk tugas yang berbeda
 CODE_GEN_MODEL = os.getenv("CODE_GEN_MODEL", "moonshotai/kimi-dev-72b:free")
