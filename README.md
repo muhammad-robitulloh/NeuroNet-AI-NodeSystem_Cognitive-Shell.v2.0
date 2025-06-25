@@ -33,4 +33,4 @@ A semi-agentic AI terminal shell that **thinks**, **suggests**, and **acts** —
 ```bash
 pkg update && pkg upgrade
 pkg install python git
-pip install requests pexpect
+pip install -r requirements.txt
