@@ -14,7 +14,7 @@ setup(
     entry_points={
         'console_scripts': [
             'cognitiveshell=cognitive_shell.__main__:main',
-            'quickstart=quick_start:main',
+            'quickstart=cognitive_shell.quick_start:main',
         ],
     },
     author='Muhammad Robitulloh',
