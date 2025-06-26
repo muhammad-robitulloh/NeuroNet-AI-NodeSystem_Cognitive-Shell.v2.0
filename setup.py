@@ -10,7 +10,6 @@ setup(
     "pexpect>=4.8",
     "requests>=2.25",
     "rich>=13.0",
-    "tiktoken>=0.5.1",
     "pytz>=2022.1"
     ],
     entry_points={
