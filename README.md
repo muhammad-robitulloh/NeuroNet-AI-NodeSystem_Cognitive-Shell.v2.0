@@ -32,15 +32,9 @@ A semi-agentic AI terminal shell that **thinks**, **suggests**, and **acts** —
 
 ```bash
 pkg update && pkg upgrade
-
 pkg install python git
-
 git clone https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0.git
-
 cd NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0
-
 pip install -r requirements.txt
-
 bash setup.sh
-
 python Cognitive_Shell_v2.0/cognitive_shell.py
