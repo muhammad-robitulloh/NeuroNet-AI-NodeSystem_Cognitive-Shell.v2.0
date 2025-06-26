@@ -1,12 +1,29 @@
 import os
 import time
+import shutil
 from pathlib import Path
 
 def print_header():
-    try:
+    # Bersihkan terminal dulu agar tampilannya bersih
+    os.system("clear" if os.name != "nt" else "cls")
+
+    # Cek apakah neofetch tersedia
+    neofetch_path = shutil.which("neofetch")
+
+    if neofetch_path:
         os.system("neofetch")
-    except Exception:
-        print("📦 CognitiveShell Setup\n------------------------")
+    else:
+        print("🔍 neofetch tidak ditemukan. Mencoba menginstal...")
+
+        # Coba install neofetch via pkg (untuk Termux)
+        try:
+            os.system("pkg install -y neofetch")
+            os.system("clear")
+            os.system("neofetch")
+        except Exception:
+            print("⚠️ Gagal menginstal neofetch atau bukan sistem Termux.")
+            print("📦 CognitiveShell Setup\n------------------------")
+
     time.sleep(2)
     print("\n📦 Setting up CognitiveShell environment...\n")
 
