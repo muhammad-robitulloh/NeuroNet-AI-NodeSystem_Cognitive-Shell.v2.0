@@ -1,3 +1,5 @@
+![Latest Release](https://img.shields.io/github/v/release/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0?style=flat-square)
+
 # 🧠 NeuroNet AI Node System: Cognitive Shell v2.0
 
 A semi-agentic AI terminal shell that **thinks**, **suggests**, and **acts** — from detecting terminal errors to auto-fixing them using AI, all running on lightweight environments like Termux or Google Cloud Shell.
