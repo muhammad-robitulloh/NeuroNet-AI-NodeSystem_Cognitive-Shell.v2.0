@@ -42,6 +42,7 @@ git clone https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitiv
 cd NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0
 pip install -r requirements.txt
 python quick_start.py
+python cognitive_shell/__main__.py
 ```
 
 ## ⚙️ Under Development
