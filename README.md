@@ -15,6 +15,7 @@ A semi-agentic AI terminal shell that **thinks**, **suggests**, and **acts** —
 - 💬 **Telegram Bot Integration** (send/receive terminal commands via Telegram)
 - 📱 Optimized for **low-resource devices** like Android Termux or cloud shells
 
+
 ---
 
 ## 📦 Requirements
@@ -38,3 +39,20 @@ cd NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0
 pip install -r requirements.txt
 bash setup.sh
 python Cognitive_Shell_v2.0/cognitive_shell.py
+```
+
+## ⚙️ Under Development
+
+The current version of **Cognitive Shell** is still under active development.
+
+Planned improvements include:
+- 🔐 `.env` configuration for API keys and tokens (Telegram, LLM, etc.)
+- 🧠 Multi-model support (switching between OpenRouter, local LLMs, etc.)
+- 💬 Customizable prompt templates per user
+- 📂 Logging and error history system
+- 📦 Packaged CLI setup with one-liner installer
+
+This early MVP is functional but minimal — perfect for testing agentic capabilities in lightweight environments like Termux or remote shells.
+
+Expect frequent updates and breaking changes during this phase. Contributions and feedback are welcome!
+
