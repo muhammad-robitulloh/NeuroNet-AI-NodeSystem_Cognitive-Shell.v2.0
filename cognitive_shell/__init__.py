@@ -1,0 +1,2 @@
+def main():
+    # fungsi utama
