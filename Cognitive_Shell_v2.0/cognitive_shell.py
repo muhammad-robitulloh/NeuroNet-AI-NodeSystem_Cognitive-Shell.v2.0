@@ -25,10 +25,10 @@ import pytz # Import pytz untuk penanganan zona waktu (saat ini tidak digunakan,
 load_dotenv()
 
 # === Konfigurasi Global ===
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://openrouter.ai/api/v1/chat/completions")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "6504150585")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7873624234:AAHJ_Wm6EFgV4W7JdeehfhHjYbVdHiPOk_M")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 # Konfigurasi model LLM untuk berbagai tugas
 CODE_GEN_MODEL = os.getenv("CODE_GEN_MODEL", "moonshotai/kimi-dev-72b:free")
