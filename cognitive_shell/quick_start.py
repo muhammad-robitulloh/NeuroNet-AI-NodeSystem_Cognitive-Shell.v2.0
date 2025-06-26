@@ -30,19 +30,20 @@ def main():
 
     telegram_token = prompt_env_variable("🔑 Masukkan Telegram Bot Token:", "TELEGRAM_BOT_TOKEN")
     telegram_chat_id = prompt_env_variable("🆔 Masukkan Telegram Chat ID:", "TELEGRAM_CHAT_ID")
-    llm_api = prompt_env_variable("🌐 Masukkan LLM API URL (Default: OpenRouter):", "LLM_API", default="https://openrouter.ai/api/v1/chat/completions")
+    llm_base_url = prompt_env_variable("🌐 Masukkan LLM API URL (Default: OpenRouter):", "LLM_BASE_URL", default="https://openrouter.ai/api/v1/chat/completions")
     openrouter_api_key = prompt_env_variable("🔐 Masukkan OpenRouter API Key:", "OPENROUTER_API_KEY")
 
     env_content = f"""TELEGRAM_BOT_TOKEN={telegram_token}
 TELEGRAM_CHAT_ID={telegram_chat_id}
-LLM_API={llm_api}
+LLM_BASE_URL={llm_base_url}
 OPENROUTER_API_KEY={openrouter_api_key}
 """
 
-    env_path = Path(".env")
+    # Pastikan .env ditulis ke direktori utama (root project)
+    env_path = Path(__file__).resolve().parent.parent / ".env"
     try:
         env_path.write_text(env_content)
-        print("\n✅ Berhasil menyimpan konfigurasi ke .env")
+        print(f"\n✅ Berhasil menyimpan konfigurasi ke {env_path}")
         print("▶️ Jalankan dengan perintah: cognitiveshell\n")
     except Exception as e:
         print(f"❌ Gagal menyimpan .env: {e}")
