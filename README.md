@@ -1,4 +1,26 @@
-![Latest Release](https://img.shields.io/github/v/release/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0?style=flat-square)
+<p align="center">
+  
+  <a href="https://pypi.org/project/neuronet-ai-cognitiveshell">
+    <img src="https://img.shields.io/pypi/v/neuronet-ai-cognitiveshell?color=blue&label=PyPI&logo=python&logoColor=white" alt="PyPI">
+  </a>
+  
+  <a href="https://pypi.org/project/neuronet-ai-cognitiveshell">
+    <img src="https://img.shields.io/pypi/dm/neuronet-ai-cognitiveshell?label=downloads&color=success" alt="Downloads">
+  </a>
+
+  <a href="https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0/actions/workflows/python-publish.yml">
+    <img src="https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0/actions/workflows/python-publish.yml/badge.svg" alt="Build Status">
+  </a>
+
+  <a href="https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0?color=lightgrey" alt="License">
+  </a>
+
+  <a href="https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0">
+    <img src="https://img.shields.io/github/last-commit/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0?color=yellow" alt="Last Commit">
+  </a>
+
+</p>
 
 # 🧠 NeuroNet AI Node System: Cognitive Shell v2.0
 
