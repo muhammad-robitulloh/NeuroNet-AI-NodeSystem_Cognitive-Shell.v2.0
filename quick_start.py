@@ -4,24 +4,18 @@ import shutil
 from pathlib import Path
 
 def print_header():
-    # Bersihkan terminal dulu agar tampilannya bersih
     os.system("clear" if os.name != "nt" else "cls")
 
-    # Cek apakah neofetch tersedia
-    neofetch_path = shutil.which("neofetch")
-
-    if neofetch_path:
+    if shutil.which("neofetch"):
         os.system("neofetch")
     else:
         print("🔍 neofetch tidak ditemukan. Mencoba menginstal...")
-
-        # Coba install neofetch via pkg (untuk Termux)
         try:
             os.system("pkg install -y neofetch")
             os.system("clear")
             os.system("neofetch")
         except Exception:
-            print("⚠️ Gagal menginstal neofetch atau bukan sistem Termux.")
+            print("⚠️ Gagal menginstal neofetch atau bukan Termux.")
             print("📦 CognitiveShell Setup\n------------------------")
 
     time.sleep(2)
@@ -29,9 +23,7 @@ def print_header():
 
 def prompt_env_variable(prompt, var_name, default=None):
     value = input(f"{prompt} ")
-    if not value and default is not None:
-        return default
-    return value
+    return value or default or ""
 
 def main():
     print_header()
@@ -48,9 +40,12 @@ OPENROUTER_API_KEY={openrouter_api_key}
 """
 
     env_path = Path(".env")
-    env_path.write_text(env_content)
-
-
+    try:
+        env_path.write_text(env_content)
+        print("\n✅ Berhasil menyimpan konfigurasi ke .env")
+        print("▶️ Jalankan dengan perintah: cognitiveshell\n")
+    except Exception as e:
+        print(f"❌ Gagal menyimpan .env: {e}")
 
 if __name__ == "__main__":
     main()
