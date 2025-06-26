@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='neuronet-ai-cognitiveshell',
-    version='0.2.3',
+    version='0.2.4',
     packages=find_packages(),
     install_requires=[
     "python-telegram-bot>=20.0",
@@ -14,6 +14,7 @@ setup(
     entry_points={
         'console_scripts': [
             'cognitiveshell=cognitive_shell.__main__:main',
+            'quickstart=quick_start:main',
         ],
     },
     author='Muhammad Robitulloh',
