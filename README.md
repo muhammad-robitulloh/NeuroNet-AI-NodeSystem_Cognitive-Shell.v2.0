@@ -33,6 +33,8 @@ A semi-agentic AI terminal shell that **thinks**, **suggests**, and **acts** —
 
 1. **Install dependencies:**
 
+   tested on `Termux`
+
 ```bash
 pkg update && pkg upgrade
 pkg install python git
