@@ -44,6 +44,13 @@ pip install -r requirements.txt
 python quick_start.py
 python cognitive_shell/__main__.py
 ```
+2. **Install via PyPI(Python Package Index)**
+
+```bash
+pip install neuronet-ai-cognitiveshell
+quickstart
+cognitiveshell
+```
 
 ## ⚙️ Under Development
 
