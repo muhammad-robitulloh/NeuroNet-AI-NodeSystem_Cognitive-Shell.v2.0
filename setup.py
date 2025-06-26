@@ -5,10 +5,13 @@ setup(
     version='0.2.0',
     packages=find_packages(),
     install_requires=[
-        'requests',
-        'pexpect',
-        'python-telegram-bot',
-        'python-dotenv',
+    "python-telegram-bot>=20.0",
+    "python-dotenv>=0.21.0",
+    "pexpect>=4.8",
+    "requests>=2.25",
+    "rich>=13.0",
+    "tiktoken>=0.5.1",
+    "pytz>=2022.1"
     ],
     entry_points={
         'console_scripts': [
