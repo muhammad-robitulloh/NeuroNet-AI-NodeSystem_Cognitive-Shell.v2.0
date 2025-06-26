@@ -33,8 +33,7 @@ OPENROUTER_API_KEY={openrouter_api_key}
     env_path = Path(".env")
     env_path.write_text(env_content)
 
-    print("\n✅ Konfigurasi selesai. File `.env` telah dibuat.")
-    print("🚀 Jalankan CognitiveShell dengan perintah:\n   python -m cognitive_shell")
+
 
 if __name__ == "__main__":
     main()
