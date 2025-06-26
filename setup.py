@@ -9,7 +9,6 @@ setup(
     "python-dotenv>=0.21.0",
     "pexpect>=4.8",
     "requests>=2.25",
-    "rich>=13.0",
     "pytz>=2022.1"
     ],
     entry_points={
