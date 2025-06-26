@@ -1,4 +1,8 @@
 #!/bin/bash
+pkg install neofetch
+clear
+neofetch
+sleep 3
 echo "📦 Setting up CognitiveShell environment..."
 
 read -p "🔑 Masukkan Telegram Bot Token: " TELEGRAM_BOT_TOKEN
