@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'cognitiveshell=cognitive_shell.__main__:main',
+            'cognitiveshell=cognitive_shell.cognitiveshell:main',
             'quickstart=cognitive_shell.quick_start:main',
         ],
     },
