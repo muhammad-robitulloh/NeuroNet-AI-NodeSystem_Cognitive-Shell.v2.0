@@ -59,7 +59,7 @@ A semi-agentic AI terminal shell that **thinks**, **suggests**, and **acts** —
 
 1. **Install dependencies:**
 
-   tested on `Termux`
+   tested on `Termux` &  `Ubuntu Jammy Jellyfish`
 
 ```bash
 pkg update && pkg upgrade
@@ -68,7 +68,7 @@ git clone https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitiv
 cd NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0
 pip install -r requirements.txt
 python quick_start.py
-python cognitive_shell/__main__.py
+python cognitive_shell/cognitiveshell.py
 ```
 2. **Install via PyPI(Python Package Index)**
 
