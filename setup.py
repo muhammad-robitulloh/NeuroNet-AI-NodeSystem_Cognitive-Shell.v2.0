@@ -20,7 +20,7 @@ setup(
     author='Muhammad Robitulloh',
     author_email='muhammadrobitulloh19@gmail.com',
     description='Semi-Agentic Terminal AI assistant with shell error detection and debugging via Telegram',
-    long_description=open('README.md').read(),
+    long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/muhammad-robitulloh/NeuroNet-AI-NodeSystem_Cognitive-Shell.v2.0',
     classifiers=[
