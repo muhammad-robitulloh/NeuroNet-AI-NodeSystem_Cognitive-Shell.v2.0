@@ -1,5 +1,3 @@
-
-
 https://github.com/user-attachments/assets/1d9d1373-0920-4b8a-bfda-486b82c7953a
 
 <p align="center">
@@ -93,3 +91,4 @@ This early MVP is functional but minimal — perfect for testing agentic capabil
 
 Expect frequent updates and breaking changes during this phase. Contributions and feedback are welcome!
 
+## Documentation
